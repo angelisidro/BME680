@@ -19,4 +19,10 @@ Este es un sensor creado por el fabricante de dispositivos electronicos BOSCH, e
 - 3V3
 - 5V
 
+## Erroes 
+
+### BME680 error code : -2
+![](/Img/erro1.PNG)
+
+Para solucionar este error debemos hacer algunos cambios en nuestro codigo, si estas utilizando la libreria ***wire.h*** este es el codigo que debes modificar para que tu sensore BME680 Funcione adecuadamente.
 
